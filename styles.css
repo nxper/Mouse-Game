@@ -1,0 +1,32 @@
+body{
+    background-color: white ;
+}
+
+#startButton{
+    cursor: pointer;
+    font-size: 24px;
+    border: 2px solid white;
+    justify-content: center;
+    border-color: black;
+    border-radius: 4px;
+    outline: none;
+    pointer-events: all;
+    min-width: 50px;
+    width: auto;
+    background-color: white;
+}
+
+#startButton.invisible{
+    display:none
+}
+#circulo{
+    display: none;
+}
+#circulo.visible{
+    display: block;
+}
+
+#startButton:hover{
+    color: white;
+    background-color: black;
+}
